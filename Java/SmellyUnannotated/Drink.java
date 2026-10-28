@@ -141,7 +141,4 @@ public class Drink {
     public void accessInternalDetails() {
         System.out.println("Accessing internal details: " + this.drinkType);
     }
-
-    public void refusedBequest() {
-    }
 }

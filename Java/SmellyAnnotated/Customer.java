@@ -162,10 +162,6 @@ public class Customer {
         }
     }
 
-    public void refusedBequest() {
-        // Refused Bequest (method that should be inherited but is empty)
-    }
-
     public void accessInternalDetails() {
         // Inappropriate Intimacy (accessing internal details of another class)
         System.out.println("Accessing internal details of PizzaShop: " + pizzaShop.getCashier().getChef().isBusy());

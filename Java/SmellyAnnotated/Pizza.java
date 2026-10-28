@@ -193,9 +193,6 @@ public class Pizza {
         System.out.println("Accessing internal details: " + this.size + ", " + this.doughType + ", " + this.topping);
     }
 
-    public void refusedBequest() {
-        // Refused Bequest (method that should be inherited but is empty)
-    }
 }
 
 class CheesePizza extends Pizza {

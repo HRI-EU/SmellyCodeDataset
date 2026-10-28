@@ -168,8 +168,6 @@ public class Pizza {
         System.out.println("Accessing internal details: " + this.size + ", " + this.doughType + ", " + this.topping);
     }
 
-    public void refusedBequest() {
-    }
 }
 
 class CheesePizza extends Pizza {

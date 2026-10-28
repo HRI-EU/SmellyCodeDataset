@@ -141,10 +141,7 @@ public class Cashier {
             this.calmCustomerDown();
         }
     }
-
-    public void refusedBequest() {
-    }
-
+    
     public void accessInternalDetails() {
         System.out.println("Accessing internal details of Chef: " + chef.isBusy());
     }

@@ -180,7 +180,5 @@ public class Chef {
     public void accessInternalDetails() {
         System.out.println("Accessing internal details of Pizza: " + this.pizza.getTopping());
     }
-
-    public void refusedBequest() {
-    }
+    
 }

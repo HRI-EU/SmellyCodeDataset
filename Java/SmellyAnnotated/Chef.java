@@ -205,8 +205,4 @@ public class Chef {
         // Inappropriate Intimacy (accessing internal details of another class)
         System.out.println("Accessing internal details of Pizza: " + this.pizza.getTopping());
     }
-
-    public void refusedBequest() {
-        // Refused Bequest (method that should be inherited but is empty)
-    }
 }

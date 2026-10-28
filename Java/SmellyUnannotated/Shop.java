@@ -31,6 +31,11 @@ public class Shop {
         cashier.takeOrder(pizzaType);
     }
 
+    public void orderPizza(String pizzaType) {
+        System.out.println("Customer is placing an order for " + pizzaType + " pizza.");
+        this.receiveOrder(pizzaType);
+    }
+
     public Pizza createPizza(String pizzaType) {
         if (pizzaType.equals("Cheese")) {
             return new CheesePizza();
